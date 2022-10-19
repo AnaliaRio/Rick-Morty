@@ -21,3 +21,10 @@ const Character = () => {
 }
 
 export default Character;
+
+{/* Lines 17-18
+Also:
+{character.name = null ? '' : character.name}
+{character.image = null ? '' : character.image}
+
+*/}

@@ -14,8 +14,8 @@ const Character = () => {
     return(
         <>
         <h2>Character with id {params.id} </h2>
-        <p>Whose name is {character.name} </p>
-        <img src={character.image} alt="Character"/>
+        <p>Whose name is {character?.name} </p>
+        <img src={character?.image} alt="Character"/>
         </>
     )
 }
